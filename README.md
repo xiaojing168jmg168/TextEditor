@@ -106,7 +106,7 @@ THEN I should have my static assets pre cached upon loading along with subsequen
 
 7.
 *The following image shows the application's ```manifest.json``` file:
-![alt text](/assets/images/jate-5.png)
+![alt text](/assets/images/jate-8.png)
 
 8.
 
