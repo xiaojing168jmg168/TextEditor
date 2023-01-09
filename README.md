@@ -1,34 +1,39 @@
 
-## (PWA) : Text Editor
+## (PWA) : Text Editor👋
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
+* JATE is a progressive Web Application(PWA) that runs in the browser, offline and can be installed locally to your device. This application will feature a number of data perisstence techniques that serve as redundancy in case one of the options is not supported by the browser. JATE use an indexedDB database and the idb package. This application is deployed to Heroku, to access it please click below deployed link.
 
-
+## Deployed Link
+https://intense-woodland-05668.herokuapp.com/
 
 ## Table of Contents
 * [Description](#description)
+* [Deployed Link](#deployed-link)
+* [Technologies Employed](technologies-employed)
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
+* [Questions](#questions)
+
+## Technologies Employed
+* Mini-CSS-Extract Plugin
+* Webpack+Workbox
+* Concurrently
+* IndexedDB
+* Express
+* NodeJS
+* Babel
 
 ## Installation
+To run J.A.T.E locally:
 
+1. git clone this repository
+2. Run ```npm i``` to install all dependencies
+3. Invoke application with ```npm run start:dev```
 
-
-*  This application will use the following npm packages:-
-
-         * npm install express (express.js)
-         * npm install --save-dev webpack (Webpack)
-         * npm install webpack-dev-server --save-dev (webpack-dev-server)
-         * npm install --save-dev webpack-pwa-manifest (WebpackPwaManifest)
-         * npm install babel (Babel)
-         * npm install --save-dev css-loader (CSS-loader)
-         * npm install concurrently --save (run multiple commands concurrently.) (Concurrently)
-         * npm npm install idb (IndexedDB)
-
-* The required modules are bundled in the package.json file and at CLI or integrated terminal type in **npm run install**, the modules will be installed.       
 
 ## Usage
 
@@ -114,11 +119,14 @@ THEN I should have my static assets pre cached upon loading along with subsequen
 WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application 
 ````````
-![alt text](/assets/images/jate-5.png)
+![alt text](/assets/images/jate-11.png)
 
 
-
- 
 ## License
 
 This project is licensed under the terms of the MIT license.
+
+## Questions
+✋Reach me here:<br/>
+:octocat: Find me on GitHub: [xiaojing168jmg168](https://github.com/xiaojing168jmg168)<br/>
+📩 Email me with any questions: 8redfishcreative@gmail.com
